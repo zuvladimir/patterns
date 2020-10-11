@@ -7,6 +7,6 @@ package com.mycompany.abstractfactory;
  * @author Vladimir
  */
 public interface ConnectionFactoryInterface {
-    public ImapConnection createImapConnection();
-    public ImapsConnection createImapsConnection();
+    public Connection createImapConnection();
+    public Connection createImapsConnection();
 }
